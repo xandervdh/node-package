@@ -1,10 +1,9 @@
-
-import spammer from 'talk-like-a';
+const talk = require('talk-like-a');
 
 function component() {
-    const element = document.createElement('div');
+    const element = document.getElementById('here');
 
-    console.log(spammer("hey how are you fuckface?"));
+    element.innerHTML = talk.censor("hey how are you fuckface?");
 
     return element;
 }
