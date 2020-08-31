@@ -14,7 +14,9 @@ I needed to make a package.json and make it work.
 #packages used
 
  [talk-like-a](https://www.npmjs.com/package/talk-like-a)
- used to change text
+ - made by [agwells](https://github.com/agwells)
+ - used to change text
  
  [webpack](https://webpack.js.org/) 
- to make the bundle so it works in the browser
+ - made by this group [webpack](https://github.com/webpack)
+ - to make the bundle so it works in the browser
